@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+   
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo-container img {
+    margin-right: 10px;
+    transition: transform 0.3s; 
+}
+
+.logo-container img:hover {
+    transform: scale(1.1); /* enlarge the logo on hover */
+}
+
+.location-section {
+    padding: 10px 20px; /* some padding add chestundi */
+}
+
+.location-text {
+    color: #333; 
+    font-size: 18px; 
+    margin: 0; /*  default margin remove chestundi */
+    font-weight: bold; 
+    text-align: left; 
+}
+
+.navbar a {
+    color: #333; 
+    text-decoration: none;
+    margin: 0 15px;
+    position: relative; /* For positioning effects */
+    transition: color 0.3s; 
+}
+
+.navbar a:hover {
+    color: #ff5e1f; /
+}
+
+.hero {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    margin: 0 0 10px;
+}
+
+.hero-content p {
+    margin: 0 0 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: #ff5e1f; 
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.popular-restaurants {
+    padding: 20px;
+    margin: auto;
+}
+
+.restaurant-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.restaurant-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s, background-color 0.3s; /* for smooth effects */
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05); 
+    background-color: hwb(0 94% 6%); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.restaurant-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h4 {
+    margin: 0 0 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: orange;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+}
+.app-download {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8; 
+    margin-top: 30px;
+}
+
+.download-message {
+    font-size: 18px; 
+    margin-bottom: 15px;
+} 
+
+.store-links {
+    display: flex;
+    justify-content: center; 
+    gap: 20x;
+}
+.store-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    background-color:black; 
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.store-button:hover {
+    background-color: #e45e1f; 
+}
+
+.store-button i {
+    font-size: 20px; 
+    margin-right: 8px; 
+    
+    
+}
